@@ -1,0 +1,38 @@
+uuid: 59cf9500-ad22-4718-af0c-ff5c846e2126
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_personal_fotografia
+    - node.type.personal
+  module:
+    - image
+id: node.personal.field_personal_fotografia
+field_name: field_personal_fotografia
+entity_type: node
+bundle: personal
+label: Fotografía
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png jpg jpeg'
+  max_filesize: 5MB
+  max_resolution: ''
+  min_resolution: 100x100
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

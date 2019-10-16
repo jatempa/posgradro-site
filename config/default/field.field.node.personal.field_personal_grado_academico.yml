@@ -1,0 +1,19 @@
+uuid: 0cca6252-acf9-4b4d-b3d4-ebce08c75d3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_personal_grado_academico
+    - node.type.personal
+id: node.personal.field_personal_grado_academico
+field_name: field_personal_grado_academico
+entity_type: node
+bundle: personal
+label: 'Grado Académico'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: 199fccf8-4793-46c0-a862-e6c55fc02e81
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_personal_generacion
+    - node.type.personal
+id: node.personal.field_personal_generacion
+field_name: field_personal_generacion
+entity_type: node
+bundle: personal
+label: Generación
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

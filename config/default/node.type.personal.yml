@@ -1,0 +1,18 @@
+uuid: af570ece-cd66-4bc0-b65c-e6f5bb58a932
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Personal
+type: personal
+description: 'Miembros del Departamento de Posgrado'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

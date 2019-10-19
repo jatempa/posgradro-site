@@ -1,0 +1,14 @@
+uuid: 46b9e10a-3364-4a08-a0f3-e1178165cece
+langcode: en
+status: true
+dependencies: {  }
+name: imagen_personal
+label: 'Imagen Personal (150×150)'
+effects:
+  f4f05af1-b8c8-4cf5-8179-7babb3529636:
+    uuid: f4f05af1-b8c8-4cf5-8179-7babb3529636
+    id: image_resize
+    weight: -10
+    data:
+      width: 150
+      height: 150

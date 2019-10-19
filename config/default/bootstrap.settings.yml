@@ -7,7 +7,6 @@ favicon:
   path: ''
   url: 'http://drupal-boina.develop/themes/contrib/bootstrap/favicon.ico'
   use_default: true
-fluid_container: 0
 table_responsive: '-1'
 navbar_position: fixed-top
 cdn_theme: bootstrap
@@ -17,6 +16,17 @@ cdn_cache_ttl_assets: '0'
 cdn_cache_ttl_library: '0'
 reset_http_request_cache: ''
 table: ''
+image_shape: img-rounded
+region_wells:
+  navigation: ''
+  navigation_collapsible: ''
+  header: ''
+  highlighted: ''
+  help: ''
+  content: ''
+  sidebar_first: ''
+  sidebar_second: well
+  footer: ''
 features:
   comment_user_picture: true
   comment_user_verification: true

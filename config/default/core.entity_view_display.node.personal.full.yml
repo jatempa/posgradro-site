@@ -1,8 +1,9 @@
-uuid: 1b43f9c4-0b45-4308-aa35-510fdf7f8a4a
+uuid: e20d6dc5-ffd4-43a5-a930-8868cac4d0f8
 langcode: en
-status: true
+status: false
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - field.field.node.personal.field_personal_areas_de_interes
     - field.field.node.personal.field_personal_categoria
     - field.field.node.personal.field_personal_email
@@ -15,10 +16,10 @@ dependencies:
   module:
     - image
     - user
-id: node.personal.default
+id: node.personal.full
 targetEntityType: node
 bundle: personal
-mode: default
+mode: full
 content:
   field_personal_areas_de_interes:
     weight: 104

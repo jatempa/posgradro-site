@@ -4,6 +4,13 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.personal.field_personal_areas_de_interes
+    - field.field.node.personal.field_personal_categoria
+    - field.field.node.personal.field_personal_email
+    - field.field.node.personal.field_personal_fotografia
+    - field.field.node.personal.field_personal_generacion
+    - field.field.node.personal.field_personal_grado_academico
+    - field.field.node.personal.field_personal_nombre
     - node.type.personal
   module:
     - user
@@ -17,4 +24,11 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_personal_areas_de_interes: true
+  field_personal_categoria: true
+  field_personal_email: true
+  field_personal_fotografia: true
+  field_personal_generacion: true
+  field_personal_grado_academico: true
+  field_personal_nombre: true

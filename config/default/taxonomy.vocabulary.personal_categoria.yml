@@ -2,7 +2,7 @@ uuid: 0c066b25-33ee-4a69-bf50-5802920915e9
 langcode: en
 status: true
 dependencies: {  }
-name: 'Personal Categoría'
+name: 'Categorías de Personal'
 vid: personal_categoria
 description: 'Tipos de miembros del Departamento de Posgrado'
 weight: 0

@@ -328,13 +328,14 @@ display:
       path: directorio
       menu:
         type: normal
-        title: Directorio
+        title: Contacto
         description: ''
         expanded: false
         parent: ''
-        weight: -47
+        weight: -46
         context: '0'
         menu_name: main
+        enabled: true
     cache_metadata:
       max-age: -1
       contexts:

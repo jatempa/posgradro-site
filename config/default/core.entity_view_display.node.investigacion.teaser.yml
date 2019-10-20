@@ -1,0 +1,30 @@
+uuid: 05ac0542-1366-424a-b6b0-2598ab9f50e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.investigacion.body
+    - node.type.investigacion
+  module:
+    - text
+    - user
+id: node.investigacion.teaser
+targetEntityType: node
+bundle: investigacion
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

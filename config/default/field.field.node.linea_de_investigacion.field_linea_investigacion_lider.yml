@@ -1,0 +1,25 @@
+uuid: bc41a853-584e-4ffb-b8d9-c91bc1bd5ab7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_linea_investigacion_lider
+    - node.type.linea_de_investigacion
+id: node.linea_de_investigacion.field_linea_investigacion_lider
+field_name: field_linea_investigacion_lider
+entity_type: node
+bundle: linea_de_investigacion
+label: 'Líder de Linea de Investigacion '
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: docentes
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference

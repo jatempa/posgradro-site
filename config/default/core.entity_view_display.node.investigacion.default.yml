@@ -1,0 +1,33 @@
+uuid: bd6c060f-ebf3-49a3-84a1-0ab1819198a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.investigacion.body
+    - field.field.node.investigacion.field_investigacion_linea_invest
+    - node.type.investigacion
+  module:
+    - text
+    - user
+id: node.investigacion.default
+targetEntityType: node
+bundle: investigacion
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_investigacion_linea_invest:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  links: true

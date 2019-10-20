@@ -1,0 +1,20 @@
+uuid: d7318392-17a0-4e77-86d0-7db06718a9dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.linea_de_investigacion
+  module:
+    - user
+id: node.linea_de_investigacion.teaser
+targetEntityType: node
+bundle: linea_de_investigacion
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

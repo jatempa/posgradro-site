@@ -1,0 +1,21 @@
+uuid: ba700bcd-3f59-462b-be91-c045d0e24bc2
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.docentes
+  module:
+    - text
+id: taxonomy_term.docentes.default
+targetEntityType: taxonomy_term
+bundle: docentes
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

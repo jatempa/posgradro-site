@@ -1,0 +1,55 @@
+uuid: 39f3da06-ea26-487a-8c09-3844958b8ace
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.linea_de_investigacion.field_linea_investigacion_colabo
+    - field.field.node.linea_de_investigacion.field_linea_investigacion_descri
+    - field.field.node.linea_de_investigacion.field_linea_investigacion_lider
+    - node.type.linea_de_investigacion
+id: node.linea_de_investigacion.default
+targetEntityType: node
+bundle: linea_de_investigacion
+mode: default
+content:
+  field_linea_investigacion_colabo:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_linea_investigacion_descri:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_linea_investigacion_lider:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 1
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

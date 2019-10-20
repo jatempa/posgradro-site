@@ -1,0 +1,22 @@
+uuid: e7fa8f28-aa69-4dcc-923c-a4392096c5cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.linea_de_investigacion
+id: node.linea_de_investigacion.promote
+field_name: promote
+entity_type: node
+bundle: linea_de_investigacion
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

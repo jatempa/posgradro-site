@@ -1,0 +1,19 @@
+uuid: 752dac0e-eb54-4c95-b286-6f7122e0cbf2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_directorio_puesto
+    - node.type.directorio
+id: node.directorio.field_directorio_puesto
+field_name: field_directorio_puesto
+entity_type: node
+bundle: directorio
+label: Puesto
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

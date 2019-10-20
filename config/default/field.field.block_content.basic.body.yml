@@ -17,7 +17,11 @@ label: Body
 description: ''
 required: false
 translatable: true
-default_value: {  }
+default_value:
+  -
+    summary: ''
+    value: "<p><strong>División de Estudios de Posgrado e Investigación del Instituto Tecnológico de Mexicali</strong><br />\r\nAv Tecnológico s/n Col. Elias Calles<br />\r\nC.P. 21397, Mexicali, Baja California, Mexico<br />\r\nTeléfono:&nbsp;(686) 580 4950, (686) 580 4912</p>\r\n\r\n<p><strong>Email</strong><br />\r\n<a href=\"mailto:#\">posgrado@itmexicali.edu.mx</a></p>\r\n"
+    format: basic_html
 default_value_callback: ''
 settings:
   display_summary: false

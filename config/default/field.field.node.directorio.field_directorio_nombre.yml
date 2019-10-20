@@ -1,0 +1,19 @@
+uuid: 57872d16-99d7-474e-85f7-c225d4daf8af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_directorio_nombre
+    - node.type.directorio
+id: node.directorio.field_directorio_nombre
+field_name: field_directorio_nombre
+entity_type: node
+bundle: directorio
+label: Nombre
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: a97632e2-ba6a-45aa-9c1a-a8a575e1594f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_directorio_email
+    - node.type.directorio
+id: node.directorio.field_directorio_email
+field_name: field_directorio_email
+entity_type: node
+bundle: directorio
+label: Email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

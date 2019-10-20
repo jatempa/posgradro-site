@@ -1,0 +1,26 @@
+uuid: c8adc650-5a6b-4071-8634-8b887381857f
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.directorio.field_directorio_email
+    - field.field.node.directorio.field_directorio_nombre
+    - field.field.node.directorio.field_directorio_puesto
+    - node.type.directorio
+  module:
+    - user
+id: node.directorio.teaser
+targetEntityType: node
+bundle: directorio
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_directorio_email: true
+  field_directorio_nombre: true
+  field_directorio_puesto: true

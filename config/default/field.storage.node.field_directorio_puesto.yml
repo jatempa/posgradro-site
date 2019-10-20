@@ -1,0 +1,21 @@
+uuid: 744afa0e-b5a4-48f5-b3b8-db96c5e09cf2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_directorio_puesto
+field_name: field_directorio_puesto
+entity_type: node
+type: string
+settings:
+  max_length: 60
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

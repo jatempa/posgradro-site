@@ -1,9 +1,12 @@
 uuid: d7318392-17a0-4e77-86d0-7db06718a9dd
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.linea_de_investigacion.field_linea_investigacion_colabo
+    - field.field.node.linea_de_investigacion.field_linea_investigacion_descri
+    - field.field.node.linea_de_investigacion.field_linea_investigacion_lider
     - node.type.linea_de_investigacion
   module:
     - user
@@ -17,4 +20,7 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_linea_investigacion_colabo: true
+  field_linea_investigacion_descri: true
+  field_linea_investigacion_lider: true

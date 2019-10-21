@@ -1,18 +1,19 @@
-uuid: 4ab7a23c-cfb2-483b-b097-eb549f175ac2
+uuid: 034224a6-f4bc-47f1-ab31-affcd4a91150
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - field.field.node.linea_de_investigacion.field_linea_investigacion_colabo
     - field.field.node.linea_de_investigacion.field_linea_investigacion_descri
     - field.field.node.linea_de_investigacion.field_linea_investigacion_lider
     - node.type.linea_de_investigacion
   module:
     - user
-id: node.linea_de_investigacion.default
+id: node.linea_de_investigacion.full
 targetEntityType: node
 bundle: linea_de_investigacion
-mode: default
+mode: full
 content:
   field_linea_investigacion_colabo:
     weight: 2

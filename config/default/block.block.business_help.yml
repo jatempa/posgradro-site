@@ -1,0 +1,22 @@
+uuid: eac14e5a-9348-4ddc-92d3-37692284f9a9
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - business
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: business_help
+theme: business
+region: header
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

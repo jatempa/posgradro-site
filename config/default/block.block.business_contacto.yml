@@ -1,0 +1,28 @@
+uuid: 4e1280d2-9071-4051-b9ef-98b914ec5e2a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - business
+id: business_contacto
+theme: business
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:cde5c970-37f6-46a3-b6e1-b1a2c7e7a3a4'
+settings:
+  id: 'block_content:cde5c970-37f6-46a3-b6e1-b1a2c7e7a3a4'
+  label: 'Información de Contacto'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /directorio
+    negate: false
+    context_mapping: {  }

@@ -1,6 +1,6 @@
 uuid: ba8a55c8-b433-47e7-9da6-759a09af2872
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.account
@@ -12,8 +12,8 @@ _core:
   default_config_hash: R2K_qX0ZUMbUL6ie_-S9tZVjvqmlWKlscikgeRv9vhw
 id: business_account_menu
 theme: business
-region: header
-weight: 11
+region: sidebar_second
+weight: -7
 provider: null
 plugin: 'system_menu_block:account'
 settings:
@@ -22,6 +22,6 @@ settings:
   provider: system
   label_display: '0'
   level: 1
-  depth: 2
+  depth: 1
   expand_all_items: false
 visibility: {  }

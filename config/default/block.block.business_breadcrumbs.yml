@@ -1,6 +1,6 @@
 uuid: 3d0150c6-dcf1-4a07-941b-7c756d6ba460
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: business_breadcrumbs
 theme: business
 region: header
-weight: -100
+weight: 0
 provider: null
 plugin: system_breadcrumb_block
 settings:

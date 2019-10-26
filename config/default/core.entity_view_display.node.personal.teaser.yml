@@ -10,7 +10,6 @@ dependencies:
     - field.field.node.personal.field_personal_fotografia
     - field.field.node.personal.field_personal_generacion
     - field.field.node.personal.field_personal_grado_academico
-    - field.field.node.personal.field_personal_nombre
     - node.type.personal
   module:
     - user
@@ -31,4 +30,3 @@ hidden:
   field_personal_fotografia: true
   field_personal_generacion: true
   field_personal_grado_academico: true
-  field_personal_nombre: true

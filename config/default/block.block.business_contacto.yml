@@ -6,6 +6,7 @@ dependencies:
     - 'block_content:basic:cde5c970-37f6-46a3-b6e1-b1a2c7e7a3a4'
   module:
     - block_content
+    - system
   theme:
     - business
 id: business_contacto
@@ -18,8 +19,13 @@ settings:
   id: 'block_content:cde5c970-37f6-46a3-b6e1-b1a2c7e7a3a4'
   label: 'Información de Contacto'
   provider: block_content
-  label_display: '0'
+  label_display: visible
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: /directorio
+    negate: false
+    context_mapping: {  }

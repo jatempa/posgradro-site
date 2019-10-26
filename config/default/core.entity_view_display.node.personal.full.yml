@@ -10,7 +10,6 @@ dependencies:
     - field.field.node.personal.field_personal_fotografia
     - field.field.node.personal.field_personal_generacion
     - field.field.node.personal.field_personal_grado_academico
-    - field.field.node.personal.field_personal_nombre
     - image.style.thumbnail
     - node.type.personal
   module:
@@ -63,14 +62,6 @@ content:
     region: content
   field_personal_grado_academico:
     weight: 103
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    type: string
-    region: content
-  field_personal_nombre:
-    weight: 101
     label: above
     settings:
       link_to_entity: false

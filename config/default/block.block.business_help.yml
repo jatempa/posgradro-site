@@ -11,7 +11,7 @@ _core:
 id: business_help
 theme: business
 region: header
-weight: -30
+weight: -5
 provider: null
 plugin: help_block
 settings:

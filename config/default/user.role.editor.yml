@@ -1,0 +1,50 @@
+uuid: 8cf24b7c-f76c-4d66-a7bf-c4d7a59444c9
+langcode: en
+status: true
+dependencies: {  }
+id: editor
+label: Editor
+weight: 3
+is_admin: null
+permissions:
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access in-place editing'
+  - 'access toolbar'
+  - 'administer display modes'
+  - 'administer filters'
+  - 'administer menu'
+  - 'administer node display'
+  - 'administer node fields'
+  - 'administer node form display'
+  - 'create article content'
+  - 'create directorio content'
+  - 'create investigacion content'
+  - 'create linea_de_investigacion content'
+  - 'create page content'
+  - 'create personal content'
+  - 'delete any article content'
+  - 'delete any directorio content'
+  - 'delete any investigacion content'
+  - 'delete any linea_de_investigacion content'
+  - 'delete any page content'
+  - 'delete any personal content'
+  - 'delete own article content'
+  - 'delete own directorio content'
+  - 'delete own investigacion content'
+  - 'delete own linea_de_investigacion content'
+  - 'delete own page content'
+  - 'delete own personal content'
+  - 'edit any directorio content'
+  - 'edit any investigacion content'
+  - 'edit any linea_de_investigacion content'
+  - 'edit any personal content'
+  - 'edit own article content'
+  - 'edit own directorio content'
+  - 'edit own investigacion content'
+  - 'edit own linea_de_investigacion content'
+  - 'edit own page content'
+  - 'edit own personal content'
+  - 'use advanced search'
+  - 'use text format full_html'
+  - 'use text format restricted_html'

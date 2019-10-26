@@ -1,0 +1,25 @@
+uuid: ed185439-97da-43aa-b35b-408a103b6ce7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1cbbeb15-7587-4ca5-a9cb-203a4511ea18'
+  module:
+    - block_content
+  theme:
+    - business
+id: logotipotecnm
+theme: business
+region: header
+weight: -8
+provider: null
+plugin: 'block_content:1cbbeb15-7587-4ca5-a9cb-203a4511ea18'
+settings:
+  id: 'block_content:1cbbeb15-7587-4ca5-a9cb-203a4511ea18'
+  label: 'Logotipo TecNM'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

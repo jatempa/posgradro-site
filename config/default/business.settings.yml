@@ -1,7 +1,7 @@
 footer_copyright: '1'
 footer_credits: '1'
-business_color: red
-slideshow_display: '1'
+business_color: blue
+slideshow_display: 1
 slide_title_1: 'What We Do'
 slide_title_2: 'Who We Are'
 slide_title_3: 'Our Service'
@@ -14,3 +14,17 @@ slide_url_4: /node
 slide_url_5: /node
 _core:
   default_config_hash: Z546MZid0pMfGlgbikyRCw196WP5aRx7GrkD31ng4R4
+features:
+  node_user_picture: 1
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+logo:
+  use_default: 1
+favicon:
+  use_default: 1
+slide_image_1: {  }
+slide_image_2: {  }
+slide_image_3: {  }
+slide_image_4: {  }
+slide_image_5: {  }

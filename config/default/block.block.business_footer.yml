@@ -1,6 +1,6 @@
 uuid: 54d03781-af6e-4ee0-a6be-2d2003b497ec
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.footer
@@ -13,7 +13,7 @@ _core:
 id: business_footer
 theme: business
 region: footer
-weight: 0
+weight: -7
 provider: null
 plugin: 'system_menu_block:footer'
 settings:

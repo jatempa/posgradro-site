@@ -1,0 +1,32 @@
+uuid: 5a5c72dc-902a-4b10-8104-45bfeab04a49
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.convocatorias.body
+    - field.field.node.convocatorias.field_convocatorias_archivo
+    - node.type.convocatorias
+  module:
+    - text
+    - user
+id: node.convocatorias.teaser
+targetEntityType: node
+bundle: convocatorias
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_convocatorias_archivo: true

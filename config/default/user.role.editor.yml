@@ -11,6 +11,7 @@ permissions:
   - 'access files overview'
   - 'access in-place editing'
   - 'access toolbar'
+  - 'administer blocks'
   - 'administer display modes'
   - 'administer filters'
   - 'administer menu'

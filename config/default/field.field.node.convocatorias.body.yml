@@ -1,0 +1,22 @@
+uuid: bb6f9aa2-a5d4-4ba9-9393-4961d1a2b863
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.convocatorias
+  module:
+    - text
+id: node.convocatorias.body
+field_name: body
+entity_type: node
+bundle: convocatorias
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

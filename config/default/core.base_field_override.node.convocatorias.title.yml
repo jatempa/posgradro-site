@@ -1,0 +1,18 @@
+uuid: 03116468-a689-4e20-b849-e7628ec96cb3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.convocatorias
+id: node.convocatorias.title
+field_name: title
+entity_type: node
+bundle: convocatorias
+label: Convocatoria
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

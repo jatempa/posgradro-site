@@ -1,0 +1,35 @@
+uuid: 8cba3d3f-f169-4526-a203-b930c6b0d2ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.convocatorias.body
+    - field.field.node.convocatorias.field_convocatorias_archivo
+    - node.type.convocatorias
+  module:
+    - file
+    - text
+    - user
+id: node.convocatorias.full
+targetEntityType: node
+bundle: convocatorias
+mode: full
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_convocatorias_archivo:
+    weight: 1
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+hidden:
+  links: true

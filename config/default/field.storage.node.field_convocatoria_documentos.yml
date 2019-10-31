@@ -1,12 +1,12 @@
-uuid: 3cae34e0-a26e-4904-a940-e8d24161ca37
+uuid: a0498bca-5164-47b6-9cc0-01bfedd6e7d8
 langcode: en
 status: true
 dependencies:
   module:
     - file
     - node
-id: node.field_convocatorias_archivo
-field_name: field_convocatorias_archivo
+id: node.field_convocatoria_documentos
+field_name: field_convocatoria_documentos
 entity_type: node
 type: file
 settings:
@@ -16,7 +16,7 @@ settings:
   target_type: file
 module: file
 locked: false
-cardinality: 1
+cardinality: -1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

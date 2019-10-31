@@ -1,0 +1,22 @@
+uuid: 4975bee5-d44d-4ab9-9353-38bc6ae65421
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.sitios_relacionados
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.sitios_relacionados.body
+field_name: body
+entity_type: block_content
+bundle: sitios_relacionados
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

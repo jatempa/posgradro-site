@@ -1,0 +1,32 @@
+uuid: 870443e6-9eef-4ae7-9c74-61e7c31e7cc2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.sitios_relacionados
+    - field.field.block_content.sitios_relacionados.body
+  module:
+    - text
+id: block_content.sitios_relacionados.default
+targetEntityType: block_content
+bundle: sitios_relacionados
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

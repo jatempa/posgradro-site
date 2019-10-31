@@ -4,10 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.convocatorias.body
-    - field.field.node.convocatorias.field_convocatorias_archivo
+    - field.field.node.convocatorias.field_convocatoria_documentos
     - node.type.convocatorias
   module:
     - file
+    - path
     - text
 id: node.convocatorias.default
 targetEntityType: node
@@ -16,25 +17,31 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 2
+    weight: 1
     settings:
       rows: 9
       summary_rows: 3
       placeholder: ''
     third_party_settings: {  }
     region: content
-  field_convocatorias_archivo:
-    weight: 3
+  field_convocatoria_documentos:
+    weight: 2
     settings:
       progress_indicator: throbber
     third_party_settings: {  }
     type: file_generic
     region: content
+  path:
+    type: path
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 1
+    weight: 3
     region: content
     third_party_settings: {  }
   title:
@@ -47,7 +54,6 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
-  path: true
   promote: true
   sticky: true
   uid: true

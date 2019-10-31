@@ -10,7 +10,7 @@ id: node.investigacion.field_investigacion_linea_invest
 field_name: field_investigacion_linea_invest
 entity_type: node
 bundle: investigacion
-label: 'Investigación Linea Investigacion'
+label: 'Línea de Investigación'
 description: ''
 required: false
 translatable: false

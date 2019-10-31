@@ -423,7 +423,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"row\">\r\n  <div class=\"col-sm-4 col-md-4\">\r\n    {{ field_personal_fotografia }}\r\n  </div>\r\n  <div class=\"col-sm-8 col-md-8\">\r\n    <h4>{{ title }}</h4>\r\n    <small>\r\n       <i class=\"glyphicon glyphicon-envelope\"></i>\r\n       {{ field_personal_email }}\r\n    </small>\r\n    <br>\r\n    <small>\r\n       {{ field_personal_grado_academico }} \r\n    </small>\r\n    <br>\r\n    <small>\r\n       Áreas de Interés: {{ field_personal_areas_de_interes }}\r\n    </small>\r\n  </div>\r\n</div>"
+            text: "<div class=\"row\">\r\n  <div class=\"col-sm-4 col-md-4\">\r\n    {{ field_personal_fotografia }}\r\n  </div>\r\n  <div class=\"col-sm-8 col-md-8\">\r\n    <h4>{{ title }}</h4>\r\n    <small>\r\n       <i class=\"glyphicon glyphicon-envelope\"></i>\r\n       {{ field_personal_email }}\r\n    </small>\r\n    <br>\r\n    <small>\r\n       {{ field_personal_grado_academico }} \r\n    </small>\r\n    <br>\r\n    {% if field_personal_areas_de_interes %}\r\n      <small>\r\n         Áreas de Interés: {{  field_personal_areas_de_interes }} \r\n      </small>\r\n    {% endif %}\r\n  </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false

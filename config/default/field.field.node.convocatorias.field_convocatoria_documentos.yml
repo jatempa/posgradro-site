@@ -1,17 +1,17 @@
-uuid: a76e8fa9-f8d7-4fd4-90e4-7c79630fb322
+uuid: 40a15aa7-4965-47ad-b82c-7e8a9067efd0
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_convocatorias_archivo
+    - field.storage.node.field_convocatoria_documentos
     - node.type.convocatorias
   module:
     - file
-id: node.convocatorias.field_convocatorias_archivo
-field_name: field_convocatorias_archivo
+id: node.convocatorias.field_convocatoria_documentos
+field_name: field_convocatoria_documentos
 entity_type: node
 bundle: convocatorias
-label: Documento
+label: Documentos
 description: ''
 required: false
 translatable: false
@@ -20,7 +20,7 @@ default_value_callback: ''
 settings:
   file_directory: '[date:custom:Y]-[date:custom:m]'
   file_extensions: 'pdf doc docx'
-  max_filesize: 15MB
+  max_filesize: '20 MB'
   description_field: false
   handler: 'default:file'
   handler_settings: {  }

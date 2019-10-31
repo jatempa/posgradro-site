@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - field.storage.node.body
-    - field.storage.node.field_convocatorias_archivo
+    - field.storage.node.field_convocatoria_documentos
     - node.type.convocatorias
     - system.menu.main
   module:
@@ -202,14 +202,14 @@ display:
           separator: ', '
           field_api_classes: false
           plugin_id: field
-        field_convocatorias_archivo:
-          id: field_convocatorias_archivo
-          table: node__field_convocatorias_archivo
-          field: field_convocatorias_archivo
+        field_convocatoria_documentos:
+          id: field_convocatoria_documentos
+          table: node__field_convocatoria_documentos
+          field: field_convocatoria_documentos
           relationship: none
           group_type: group
           admin_label: ''
-          label: ''
+          label: Documentos
           exclude: true
           alter:
             alter_text: false
@@ -261,7 +261,7 @@ display:
           delta_offset: 0
           delta_reversed: false
           delta_first_last: false
-          multi_type: separator
+          multi_type: ul
           separator: ', '
           field_api_classes: false
           plugin_id: field
@@ -276,7 +276,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<section>\r\n  <header>\r\n    <h2>{{ title }}</h2>\r\n  </header>\r\n  <h3>\r\n    {{ body }}\r\n  </h3>\r\n  <p>\r\n    {{ field_convocatorias_archivo }}\r\n  </p>\r\n</section>"
+            text: "<section>\r\n  <header>\r\n    <h2>{{ title }}</h2>\r\n  </header>\r\n  <h3>\r\n    {{ body }}\r\n  </h3>\r\n  <p>\r\n    {{ field_convocatoria_documentos }}\r\n  </p>\r\n</section>"
             make_link: false
             path: ''
             absolute: false
@@ -385,7 +385,7 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.body'
-        - 'config:field.storage.node.field_convocatorias_archivo'
+        - 'config:field.storage.node.field_convocatoria_documentos'
   page_1:
     display_plugin: page
     id: page_1
@@ -400,7 +400,7 @@ display:
         description: 'Convocatorias de Posgrado'
         expanded: false
         parent: ''
-        weight: -46
+        weight: -45
         context: '0'
         menu_name: main
     cache_metadata:
@@ -413,4 +413,4 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.body'
-        - 'config:field.storage.node.field_convocatorias_archivo'
+        - 'config:field.storage.node.field_convocatoria_documentos'

@@ -1,0 +1,8 @@
+uuid: 02b4325f-3729-4212-839b-608b39400b1d
+langcode: en
+status: true
+dependencies: {  }
+id: sitios_relacionados
+label: 'Sitios Relacionados'
+revision: 0
+description: 'Proporciona información respecto a contenido relacionado'

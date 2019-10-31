@@ -441,7 +441,7 @@ display:
           entity_type: node
           entity_field: nid
           plugin_id: field
-      title: 'Departamento de Posgrado'
+      title: 'División de Estudios de Posgrado e Investigación'
       menu:
         type: 'default tab'
         title: Inicio

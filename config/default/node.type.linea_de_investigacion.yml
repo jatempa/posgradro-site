@@ -13,6 +13,6 @@ name: 'Línea de Investigación'
 type: linea_de_investigacion
 description: 'Descripción de las líneas de investigación'
 help: ''
-new_revision: true
+new_revision: false
 preview_mode: 1
-display_submitted: true
+display_submitted: false

@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.investigacion.field_investigacion_linea_invest
     - node.type.investigacion
   module:
+    - path
     - text
 id: node.investigacion.default
 targetEntityType: node
@@ -28,6 +29,12 @@ content:
     third_party_settings: {  }
     type: options_select
     region: content
+  path:
+    type: path
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
@@ -45,7 +52,6 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
-  path: true
   promote: true
   sticky: true
   uid: true

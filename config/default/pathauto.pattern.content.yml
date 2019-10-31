@@ -1,0 +1,27 @@
+uuid: 84aa93b6-48ce-4c6b-8406-2fdd2d24b1b5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: content
+label: Content
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  998de9c1-83ee-4a10-8937-e4e1595e4ebf:
+    id: node_type
+    bundles:
+      convocatorias: convocatorias
+      directorio: directorio
+      investigacion: investigacion
+      linea_de_investigacion: linea_de_investigacion
+      page: page
+      personal: personal
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 998de9c1-83ee-4a10-8937-e4e1595e4ebf
+selection_logic: and
+weight: -5
+relationships: {  }

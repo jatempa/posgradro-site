@@ -1,0 +1,22 @@
+uuid: 1078d321-2966-4cb8-b8f1-5b8fb8d92d43
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.sitios_relacionados
+    - field.field.block_content.sitios_relacionados.body
+  module:
+    - text
+id: block_content.sitios_relacionados.default
+targetEntityType: block_content
+bundle: sitios_relacionados
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

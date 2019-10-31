@@ -5,7 +5,6 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.directorio.field_directorio_email
-    - field.field.node.directorio.field_directorio_nombre
     - field.field.node.directorio.field_directorio_puesto
     - node.type.directorio
   module:
@@ -22,5 +21,4 @@ content:
     region: content
 hidden:
   field_directorio_email: true
-  field_directorio_nombre: true
   field_directorio_puesto: true

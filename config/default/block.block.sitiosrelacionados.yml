@@ -1,0 +1,31 @@
+uuid: f27c3789-4602-41ca-8802-e94d1634d065
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:sitios_relacionados:66423826-dc6c-4482-a797-ee5e989230a7'
+  module:
+    - block_content
+    - system
+  theme:
+    - business
+id: sitiosrelacionados
+theme: business
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:66423826-dc6c-4482-a797-ee5e989230a7'
+settings:
+  id: 'block_content:66423826-dc6c-4482-a797-ee5e989230a7'
+  label: 'Sitios Relacionados'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /node
+    negate: false
+    context_mapping: {  }

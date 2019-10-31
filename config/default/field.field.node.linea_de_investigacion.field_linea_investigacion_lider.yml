@@ -9,7 +9,7 @@ id: node.linea_de_investigacion.field_linea_investigacion_lider
 field_name: field_linea_investigacion_lider
 entity_type: node
 bundle: linea_de_investigacion
-label: 'Líder de Linea de Investigacion '
+label: 'Líder de Línea de Investigación '
 description: ''
 required: true
 translatable: false

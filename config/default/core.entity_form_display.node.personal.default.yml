@@ -19,14 +19,8 @@ targetEntityType: node
 bundle: personal
 mode: default
 content:
-  created:
-    type: datetime_timestamp
-    weight: 10
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   field_personal_areas_de_interes:
-    weight: 124
+    weight: 3
     settings:
       size: 60
       placeholder: ''
@@ -34,13 +28,13 @@ content:
     type: string_textfield
     region: content
   field_personal_categoria:
-    weight: 127
+    weight: 6
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: content
   field_personal_email:
-    weight: 122
+    weight: 1
     settings:
       size: 60
       placeholder: ''
@@ -48,7 +42,7 @@ content:
     type: email_default
     region: content
   field_personal_fotografia:
-    weight: 126
+    weight: 5
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -56,7 +50,7 @@ content:
     type: image_image
     region: content
   field_personal_generacion:
-    weight: 125
+    weight: 4
     settings:
       size: 60
       placeholder: ''
@@ -64,7 +58,7 @@ content:
     type: string_textfield
     region: content
   field_personal_grado_academico:
-    weight: 123
+    weight: 2
     settings:
       size: 60
       placeholder: ''
@@ -73,46 +67,27 @@ content:
     region: content
   path:
     type: path
-    weight: 30
+    weight: 8
     region: content
     settings: {  }
-    third_party_settings: {  }
-  promote:
-    type: boolean_checkbox
-    settings:
-      display_label: true
-    weight: 15
-    region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 120
-    region: content
-    third_party_settings: {  }
-  sticky:
-    type: boolean_checkbox
-    settings:
-      display_label: true
-    weight: 16
+    weight: 7
     region: content
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: -5
+    weight: 0
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  uid:
-    type: entity_reference_autocomplete
-    weight: 5
-    settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
-    region: content
-    third_party_settings: {  }
-hidden: {  }
+hidden:
+  created: true
+  promote: true
+  sticky: true
+  uid: true

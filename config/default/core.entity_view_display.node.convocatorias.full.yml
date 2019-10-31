@@ -5,7 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.full
     - field.field.node.convocatorias.body
-    - field.field.node.convocatorias.field_convocatorias_archivo
+    - field.field.node.convocatorias.field_convocatoria_documentos
     - node.type.convocatorias
   module:
     - file
@@ -23,13 +23,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-  field_convocatorias_archivo:
+  field_convocatoria_documentos:
+    type: file_default
     weight: 1
+    region: content
     label: above
     settings:
       use_description_as_link_text: true
     third_party_settings: {  }
-    type: file_default
-    region: content
 hidden:
   links: true

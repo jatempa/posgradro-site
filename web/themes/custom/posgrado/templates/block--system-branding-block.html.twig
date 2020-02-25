@@ -14,4 +14,23 @@
  */
 #}
 {% block content %}
+  {% if site_logo %}
+    <div id="logo">
+      <a href="{{ url('<front>') }}" title="{{ 'Home'|t }}" rel="home" class="site-logo">
+        <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" />
+      </a>
+    </div>
+  {% endif %}
+  {% if site_name or site_slogan %}
+    <hgroup id="sitename">
+      {% if site_name %}
+        <h2>
+          <a href="{{ url('<front>') }}" title="{{ 'Home'|t }}" rel="home">{{ site_name }}</a>
+        </h2>
+      {% endif %}
+      {% if site_slogan %}
+        <p>{{ site_slogan }}</p>
+      {% endif %}
+    </hgroup>
+  {% endif %}
 {% endblock %}

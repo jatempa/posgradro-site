@@ -1,0 +1,22 @@
+uuid: 421f740e-9aa6-484b-946d-ba70274ce749
+langcode: en
+status: true
+dependencies:
+  theme:
+    - posgrado
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: posgrado_local_tasks
+theme: posgrado
+region: header
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

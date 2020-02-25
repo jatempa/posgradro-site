@@ -1,0 +1,25 @@
+uuid: 3cee4105-54fd-417e-8386-15faaa601c59
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1cbbeb15-7587-4ca5-a9cb-203a4511ea18'
+  module:
+    - block_content
+  theme:
+    - posgrado
+id: posgrado_logotipotecnm
+theme: posgrado
+region: header
+weight: -9
+provider: null
+plugin: 'block_content:1cbbeb15-7587-4ca5-a9cb-203a4511ea18'
+settings:
+  id: 'block_content:1cbbeb15-7587-4ca5-a9cb-203a4511ea18'
+  label: 'Logotipo TecNM'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

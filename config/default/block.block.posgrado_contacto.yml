@@ -1,0 +1,31 @@
+uuid: 2c3303a3-c52e-402a-b30a-e8d382da82ad
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:cde5c970-37f6-46a3-b6e1-b1a2c7e7a3a4'
+  module:
+    - block_content
+    - system
+  theme:
+    - posgrado
+id: posgrado_contacto
+theme: posgrado
+region: footer
+weight: -6
+provider: null
+plugin: 'block_content:cde5c970-37f6-46a3-b6e1-b1a2c7e7a3a4'
+settings:
+  id: 'block_content:cde5c970-37f6-46a3-b6e1-b1a2c7e7a3a4'
+  label: 'Información de Contacto'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /directorio
+    negate: false
+    context_mapping: {  }

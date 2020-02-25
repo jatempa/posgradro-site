@@ -1,0 +1,22 @@
+uuid: adcd79a6-32b4-4125-8a11-8442d0b4c60a
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - posgrado
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: posgrado_powered
+theme: posgrado
+region: footer
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

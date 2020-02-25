@@ -1,4 +1,4 @@
-uuid: fedb4d8d-8c7c-4e51-a318-44dc575261cf
+uuid: 7b964ddd-3d22-4545-b524-88b50c6ec974
 langcode: en
 status: true
 dependencies:
@@ -7,13 +7,13 @@ dependencies:
   module:
     - system
   theme:
-    - business
+    - posgrado
 _core:
   default_config_hash: GT_zYl7I9VAILH8OxMRe-VDvFadCDHxRcnmBc5xEmf0
-id: business_main_menu
-theme: business
+id: posgrado_main_menu
+theme: posgrado
 region: header
-weight: -1
+weight: -4
 provider: null
 plugin: 'system_menu_block:main'
 settings:

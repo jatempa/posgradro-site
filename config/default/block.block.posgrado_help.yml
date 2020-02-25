@@ -1,0 +1,22 @@
+uuid: c0ecc123-d749-4802-b78d-4c0e10435853
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - posgrado
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: posgrado_help
+theme: posgrado
+region: header
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

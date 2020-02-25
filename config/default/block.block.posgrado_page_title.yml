@@ -1,0 +1,20 @@
+uuid: 181ade5d-3278-4e7d-b564-5f2e9216c900
+langcode: en
+status: true
+dependencies:
+  theme:
+    - posgrado
+_core:
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+id: posgrado_page_title
+theme: posgrado
+region: homequotes
+weight: -8
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

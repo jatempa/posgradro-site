@@ -1,0 +1,20 @@
+uuid: 96ece0f8-366b-43ed-89ca-4187046b5552
+langcode: en
+status: true
+dependencies:
+  theme:
+    - posgrado
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: posgrado_local_actions
+theme: posgrado
+region: header
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
